@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" >
+    <meta name="description" content="" >
+    <title>my project</title> 
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- css files -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- header start -->
+<header class="header">
+    <div class="container">
+        <div class="header-content">
+        <div class="logo"><img src="./images/logo.webp" alt="Logo" draggable="false"></div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home1</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Protfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Serveces</a></li>
+                <li><a href="#">Contact</a></li>
+               
+            </ul>
+            <div class="clear"></div>
+        </nav>
+        </div>
+    </div>
+</header>
+   <!-- header end -->
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="home">
+     <div class="overlay"></div> <!-- over lay -->
+    <div class="home-content"> 
+    <h1 class="title">Lorem ipsum dolor sit</h1>
+    <p class="home-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, aut fugit impedit a iste ut!</p>
+    <button class="btn get-start" type="">Get Start</button>
+    <button class=" btn learn-more"> learn more</button>
+    </div> <!-- ./home content -->
+   </div> <!-- ./home -->
+
+
+
+
+
+
+.home{position: relative;}
+.home-content{background-image: url(../images/background/background1.webp);
+              background-size: cover;
+}
+.home-content{ width: 100%;
+               height: 100vh; 
+               text-align: center;
+               line-height: 50px;
+            }
+.home-content .title{color: rgb(122, 23, 221);}
+.overlay{  position: absolute;
+           background-color: rgba(0, 0, 0, 0.596);
+           width: 100%;
+           height: 100vh;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***************
+
+/*common */
+/* 
+-container
+-opacity hover 
+-section header 
+- section padding 
+- hover effect 1 ( left to right )
+- hover effect 2 ( top to bottom )
+
+ /* General css style */ 
+
+ *{padding: 0; margin: 0; box-sizing: border-box;}
+ body{font-family: 'Varela Round', sans-serif;}
+.header{width: 100%; background-color: gray; height: 10vh; }
+
+
+.container{
+    width: 80%; height: 10vh;
+    margin: auto; }
+
+.header .container .logo{width: 20%; height: 10vh; float: left;}
+.header .container .nav {width: 80%;}
+.header .container .nav ul { float: right; }
+.header .container .nav ul li {display: inline-block; }
+.header .container .nav ul li a{
+background-color: rgb(55, 0, 255);
+padding: 10px; 
+text-decoration: none; 
+list-style: none;
+color: white;
+display: block;
+}
+.clear{clear: both;}
+
